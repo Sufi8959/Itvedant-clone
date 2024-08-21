@@ -1,0 +1,367 @@
+body {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  background-color: #fff;
+}
+.main .navbar {
+  padding: 14px 0px 14px 50px;
+}
+.collapse {
+  margin-left: 20px;
+}
+#navbarSupportedContent .navbar-nav .nav-item {
+  margin-left: 10px;
+}
+.navbar-nav .nav-item:first-child button {
+  background-color: #151515;
+  color: white;
+  border-radius: 4px;
+}
+
+.navbar-nav .nav-item:nth-child(2) button {
+  background-color: white;
+  color: #151515;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.images {
+  display: flex;
+  gap: 10px;
+}
+.navbar-nav .nav-item:nth-child(3) button {
+  background-color: #b9d719;
+  color: #22577a;
+  border-radius: 4px;
+}
+.main {
+  background-color: #fff;
+  box-shadow: 10px 9px 33px -24px rgba(0, 0, 0, 0.76);
+}
+
+h1 {
+  font-family: "Barlow";
+  font-weight: 800;
+  color: rgb(51, 51, 51);
+  font-size: 40px;
+}
+h1 span {
+  color: rgb(185, 215, 25);
+}
+.sponser-client {
+  font-size: 14px;
+  color: #333;
+  line-height: 22px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.brochure-button {
+  background-color: #b9d719;
+  color: #22577a;
+  border-radius: 4px;
+}
+.row > :first-child {
+  gap: 20px;
+}
+
+[class|="brochure-button"] {
+  border: none;
+  padding: 10px 25px 10px 25px;
+}
+.user {
+  margin-top: 50px;
+}
+.user-form {
+  padding: 20px 30px 20px 20px;
+}
+.client {
+  margin-top: 50px;
+}
+[class|="form-control"] {
+  border: 2px solid #ddd;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-family: "Barlow";
+  background-color: #b9d719;
+  color: white;
+}
+.btn {
+  color: #22577a;
+}
+.form-group {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+.first-cont {
+  display: flex;
+  justify-content: space-between;
+}
+.second-cont {
+  display: flex;
+  justify-content: space-between;
+}
+.faq h2 {
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  color: #000;
+}
+.image-box {
+  max-width: 100%;
+  height: auto;
+  padding-left: 165px;
+}
+.faq-box {
+  padding-right: 165px;
+}
+.faq {
+  margin-top: 50px;
+}
+.accordion-item .accordion-header .accordion-button {
+  font-weight: 600;
+  font-family: "Barlow";
+  line-height: 25px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+.faq-box {
+  padding-top: 30px;
+}
+.accordion-item .accordion-header .accordion-button span {
+  font-size: 28px;
+  font-family: "Barlow";
+  font-weight: 700;
+  line-height: 14px;
+  color: rgb(0, 0, 0);
+}
+.accordion-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact .container h2 {
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 32px;
+  font-weight: 800;
+  color: #000;
+  line-height: 38px;
+  padding: 12px 0px 12px 0px;
+}
+
+.contact .container p {
+  text-align: center;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  line-height: 21px;
+}
+.contact {
+  margin-top: 50px;
+}
+.col-4 .user-form {
+  margin-top: 42px;
+}
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.it-vedant ul li {
+  line-height: 30px;
+  list-style: none;
+}
+.it-vedant ul li > h6 {
+  color: #999;
+}
+.menu ul li {
+  line-height: 41px;
+  list-style: none;
+}
+.menu ul li > h6 {
+  color: #999;
+}
+.our-courses ul li {
+  line-height: 44px;
+  list-style: none;
+}
+.our-courses ul li > h6 {
+  color: #999;
+}
+.enquire-now ul li {
+  list-style: none;
+}
+.enquire-now p {
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999;
+}
+.enquire-now h4 {
+  line-height: 41px;
+  font-weight: 600;
+  font-size: 24;
+}
+.it-vedant ul li a > img {
+  max-width: 6.2%;
+}
+.it-vedant ul li a {
+  text-decoration: none;
+}
+.it-vedant {
+  padding-top: 45px;
+  width: 25vw;
+  font-family: "Barlow";
+
+  color: #ffffff;
+}
+.menu {
+  padding-top: 47px;
+  width: 25vw;
+  font-family: "Barlow";
+
+  color: #ffffff;
+}
+.our-courses {
+  padding-top: 47px;
+  width: 25vw;
+  font-family: "Barlow";
+  color: #ffffff;
+}
+.enquire-now {
+  background-color: #2e2e2e;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 2rem;
+  width: 21vw;
+  font-family: "Barlow";
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+footer {
+  background-color: #2b2b2b;
+  margin-top: 50px;
+}
+.enquire-button {
+  padding: 5px 52px 5px 52px;
+}
+
+.our-courses ul li > h6 {
+  color: #999;
+}
+.courses h1 {
+  font-family: "Barlow";
+  color: #fff;
+}
+.courses .row-courses {
+  display: flex;
+  flex-direction: row;
+}
+.courses {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2b2b;
+  gap: 30px;
+}
+
+.courses .row .container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  background-color: #fff;
+}
+.card-body {
+  padding: 14px 2px 25px 2px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.card-body > h6:nth-of-type(1) {
+  font-family: "Barlow";
+  font-weight: 400;
+  color: rgb(104, 104, 104);
+}
+.card-body h6:nth-of-type(2) {
+  font-family: "Barlow";
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.card-body .row .col-6 p {
+  font-family: "Barlow";
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.card-body .row {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-body .row .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: #f5f6fb;
+  gap: 5px;
+  padding: 10px 0px 0px 0px;
+}
+.card-text {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 22px;
+  padding-bottom: 5px;
+  color: rgb(0, 0, 0);
+}
+.card-body p {
+  text-align: center;
+}
+.card-button {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 10px 0px;
+}
+.card-button span img {
+  filter: invert(100%);
+}
+.student-brochure .container .row {
+  margin: auto;
+}
+.student-brochure {
+  margin-top: 50px;
+  width: 100vw;
+  padding: 32px 0px;
+  background-color: #2b2b2b;
+}
+.student-brochure .container .row .col-6 p {
+  padding-top: 8px;
+  color: #fff;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+}
+.student-brochure .container .row .col-6 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
